@@ -5,7 +5,7 @@ The goal of this project was to collect wildfire and AQI data to analyze the eff
 
 ## Relevant API Documentation
 
-- [EPA Colab File]([https://www.mediawiki.org/wiki/API:Main_page](https://colab.research.google.com/drive/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf))
+- [EPA Colab File](https://colab.research.google.com/drive/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf)
 - [Wildfire GEO Approximation](https://colab.research.google.com/drive/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV)
 ## Requirements
 Need Python installed on the system with pandas, json, time, and requests, sklearn, math, collections, and matplotlib installed as libraries. 
