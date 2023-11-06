@@ -12,7 +12,7 @@ Need Python installed on the system with pandas, json, time, and requests, sklea
 
 ## Files
 
-### Data Files
+### Data Files (within the Data Directory)
 - `gaseous_aqi_data.json`: Contains data related to gaseous AQI indicators from the US EPA, specifically relating to Larimer County 
 - `particulate_aqi_data.json`:  Contains data related to particulate AQI indicators from the US EPA, specifically relating to Larimer County
 
