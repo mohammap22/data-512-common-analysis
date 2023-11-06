@@ -10,15 +10,21 @@ The goal of this project was to collect wildfire and AQI data to analyze the eff
 ## Requirements
 Need Python installed on the system with pandas, json, time, and requests, sklearn, math, collections, and matplotlib installed as libraries. 
 
-## Data Files
+## Files
 
+### Data Files
 - `gaseous_aqi_data.json`: Contains data related to gaseous AQI indicators from the US EPA, specifically relating to Larimer County 
-- `particulate_aqi_data.json`:  Contains data related to particulate AQI indicators from the US EPA, specifically relating to Larimer County 
+- `particulate_aqi_data.json`:  Contains data related to particulate AQI indicators from the US EPA, specifically relating to Larimer County
+
+### General Files
+`Reader.py`: This is a library **not created by me** used to read the USGS wildfire data.
+`project.ipynb`: This is the jupyter notebook file that covers loading in the wildfire data, making the visualizations, combining the AQI and Wildfire data, and producing the smoke estimate model. 
+`EPA_AQI_DATA_LOAD.ipynb`: This notebook covers how I loaded the AQI data from the EPA
 
 ## Known Issues and Special Considerations
 
 1. The wildfire data pulled from the USGS was combined with multiple other datasets, mistakes could be present. 
-2. Poor correlation was found between my wildfire severity index and the real AQI measurements. 
+2. A poor correlation was found between my wildfire severity index and the real AQI measurements. 
 
 ## Additional Resources
 
